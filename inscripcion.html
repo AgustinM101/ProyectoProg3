@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header>
+    <div class="titulo">
+        <h1>Centro Universitario Chivilcoy</h1>
+    </div>
+   </header>
+
+ <main class="datos-personales">
+    <h2 class="Form">Formulario de incripcion </h2>
+    <form action="" method="get">
+       
+    <fieldset >
+        <legend>Datos personales</legend>
+        <input type="text" name="nombre" id="campoNombre" placeholder="Ingrese su nombre">
+        <input type="text" name="apellido" id="campoApellido" placeholder="Ingrese su apellido">
+        <input type="email" name="email" id="campoEmail" placeholder="Ingrese email">
+        <input type="date" name="fecha" id="campoFecha">
+        <input type="number" name="dni" id="campoDni" placeholder="Ingrese dni">
+
+    </fieldset>
+    <br>
+        <fieldset>
+            <legend>Datos de la Carrera</legend>
+
+            <!-- <input type="radio" name="educacion" id="opcionSecundaria" value="secundaria" checked/>
+            <label for="opcionSecundaria">Secundaria</label>
+            <input type="radio" name="educacion" id="opcionUniversidad" value="universidad">
+            <label for="opcionUniversidad">Universidad</label> -->
+
+
+
+            <label for="selectcarrera">Seleccione la carrera a la que se inscribe </label>
+            <br>
+        <select name="carrera" id="selectcarrera">
+
+            <option value="">Seleccionar carrera</option>
+            <option value="programacion">tecnicatura universitaria en programacion</option>
+            <option value="industrias Alimentarias">tecnicatura universitaria en industria Alimentarias</option>
+
+        </select>
+        <br><br>
+        <input type="radio" name="nuevaCarrera" id="nuevo" value="campoNuevo" checked/>
+        <label for="opcionSecundaria">Es la primera vez que me anoto a una carrera en el CUCH</label>
+        <br>
+        <input type="radio" name="viejaCarrera" id="inscrito" value="campoCarrera">
+        <label for="opcionUniversidad">Realice otra carrera en el CUCH(Completa o Incompleta)</label>
+        <br><br>
+        <input type="file" name="archivo" id="campoArchivo">
+        <label for="campoArchivo"></label>
+        </fieldset>
+<br>
+    <button class="claseBoton" type="submit">Enviar formulario</button>
+
+    </form>
+
+ </main>
+
+ 
+ <footer class="contactoEstilo">
+    <div class="fila">
+        <div class="cuch-desc">
+            <h2 id="Cuch">CUCH</h2>
+            <p> El Centro Universitario de Chivilcoy es una institución municipal que permite cursar estudios superiores y cursos de extensión universitaria de manera gratuita bajo el respaldo de las universidades más prestigiosas del país.
+            </p>
+            
+        </div>
+
+        <div>
+            <h2 id="link"> Link </h2>
+            <a href="./inscripcion.html">Inscripción 2024</a> 
+            <a href="http://">Universidades</a>   
+            <a href="index.html">El CUCH</a>    
+            <a href="mailto:roberto@hotmail.com">cuch@hotmail.com</a>
+
+        </div>
+
+        <div>
+            <h2 id="seccioncontacto"> Contacto</h2>
+            <h4><strong>Direccion:</strong> <br>  Av. C. Calderon 424 <br> Chivilcoy, Buenos Aires </h4>
+            <a href="http://maps.app.gob.gl/5blMUB2b7Mj9uJYo8" target="_blank">ver en el mapa </a>
+            <p><strong>Correo electronico: </strong>
+            <a href="mailto:ejemplo@hotmail.com">roberto@hotmail.com</a>
+            </p>                
+            <strong>telefono: </strong></br />
+            <a href="tel:+542346417333"> +54 (2346) 417333</a>
+        
+        </div>
+    </div>
+
+    </div>
+
+    <hr>
+
+
+
+<div class="fila">
+
+    <p>	© Copyright 2023. Todos los Derechos Reservados</p>
+    
+    <div>
+        <a href="https://www.instagram.com/cuchchivilcoy/" target="_blank" >Instagram</a>
+        <a href="https://www.youtube.com/channel/UCr5qd1wXSfgPLJRfpXNLZsw?view_as=subscriber" target="_blank" >Youtube</a>
+    </div>
+
+</div>
+
+
+
+
+</footer>
+
+
+</body>
+</html>
